@@ -1,7 +1,6 @@
 import { useMemo } from "react";
 import { themeSettings } from "./theme";
-import { ThemeProvider } from "../node_modules/@emotion/react/types/theming";
-import { CssBaseline } from "../node_modules/@mui/material/index";
+import { CssBaseline, ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 
 function App() {
@@ -11,7 +10,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <h3>Hello</h3>
-      </ThemeProvider>--
+      </ThemeProvider>
     </div>
   );
 }

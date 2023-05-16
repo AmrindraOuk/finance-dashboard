@@ -1,4 +1,4 @@
-npm install @mui/system @emotion/react @emotion/styled
+
 {
   "name": "client",
   "private": true,
